@@ -68,7 +68,7 @@ static const uint8_t tmc5041_defaultRegisterAccess[TMC5041_REGISTER_COUNT] = {
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 3, 2, 0, 1  // 70 - 7F
 };
 
-static const int32_t tmc5041_defaultRegisterResetState[TMC5041_REGISTER_COUNT] = {
+static const uint32_t tmc5041_defaultRegisterResetState[TMC5041_REGISTER_COUNT] = {
 //	0    1    2    3    4    5    6    7    8    9    A    B    C    D    E    F
 	0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0, // 00 - 0F
 	0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0, // 10 - 1F

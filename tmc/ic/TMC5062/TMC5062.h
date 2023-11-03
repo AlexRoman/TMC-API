@@ -50,7 +50,7 @@ typedef void (*tmc5062_callback)(TMC5062TypeDef*, ConfigState);
 #define R6C 0x000101D5  // CHOPCONF
 #define R7C R6C
 
-static const int32_t tmc5062_defaultRegisterResetState[TMC5062_REGISTER_COUNT] = {
+static const uint32_t tmc5062_defaultRegisterResetState[TMC5062_REGISTER_COUNT] = {
 //	0    1    2    3    4    5    6    7    8    9    A    B    C    D    E    F
 	0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0, // 0x00 - 0x0F
 	0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0, // 0x10 - 0x1F

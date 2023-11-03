@@ -40,7 +40,7 @@ typedef void (*tmc4361A_callback)(TMC4361ATypeDef*, ConfigState);
 #define R10 0x00040001  // STP_LENGTH_ADD
 #define R20 0x00000001  // RAMPMODE
 
-static const int32_t tmc4361A_defaultRegisterResetState[TMC4361A_REGISTER_COUNT] =
+static const uint32_t tmc4361A_defaultRegisterResetState[TMC4361A_REGISTER_COUNT] =
 {
 //	0,   1,   2,   3,   4,   5,   6,   7,   8,   9,   A,   B,   C,   D,   E,   F
 	N_A, 0,   0,   0,   0,   0,   N_A, N_A, 0,   0,   N_A, N_A, 0,   0,   0,   0,   // 0x00 - 0x0F

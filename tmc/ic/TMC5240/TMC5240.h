@@ -64,7 +64,7 @@ typedef void (*tmc5240_callback)(TMC5240TypeDef*, ConfigState);
 #define R70 0xC44C001E  // PWMCONF
 #define R74 0x00000000  // PWMCONF
 
-static const int32_t tmc5240_defaultRegisterResetState[TMC5240_REGISTER_COUNT] =
+static const uint32_t tmc5240_defaultRegisterResetState[TMC5240_REGISTER_COUNT] =
 {
 //	0,   1,   2,   3,   4,   5,   6,   7,   8,   9,   A,   B,   C,   D,   E,   F
 	R00, 0,   0,   0,   0,   0,   0,   0,   0,   0,   R0A,   0,   0,   0,   0,   0, // 0x00 - 0x0F

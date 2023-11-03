@@ -60,7 +60,7 @@ static const uint8_t tmc2226_defaultRegisterAccess[TMC2226_REGISTER_COUNT] =
 	0x03, 0x01, 0x01, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____, ____  // 0x70 - 0x7F
 };
 
-static const int32_t tmc2226_defaultRegisterResetState[TMC2226_REGISTER_COUNT] =
+static const uint32_t tmc2226_defaultRegisterResetState[TMC2226_REGISTER_COUNT] =
 {
 //	0    1    2    3    4    5    6    7    8    9    A    B    C    D    E    F
 	R00, 0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0, // 0x00 - 0x0F

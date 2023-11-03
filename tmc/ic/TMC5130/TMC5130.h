@@ -36,7 +36,7 @@ typedef void (*tmc5130_callback)(TMC5130TypeDef*, ConfigState);
 #define R3A 0x00010000  // ENC_CONST
 #define R6C 0x000101D5  // CHOPCONF
 
-static const int32_t tmc5130_defaultRegisterResetState[TMC5130_REGISTER_COUNT] =
+static const uint32_t tmc5130_defaultRegisterResetState[TMC5130_REGISTER_COUNT] =
 {
 //	0,   1,   2,   3,   4,   5,   6,   7,   8,   9,   A,   B,   C,   D,   E,   F
 	0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0, // 0x00 - 0x0F

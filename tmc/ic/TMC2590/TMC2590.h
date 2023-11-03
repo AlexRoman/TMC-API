@@ -51,7 +51,7 @@ static const uint8_t tmc2590_defaultRegisterAccess[TMC2590_REGISTER_COUNT] =
 	0x02   // 7: DRVCONF
 };
 
-static const int32_t tmc2590_defaultRegisterResetState[TMC2590_REGISTER_COUNT] =
+static const uint32_t tmc2590_defaultRegisterResetState[TMC2590_REGISTER_COUNT] =
 {
 	0x10000000,  // 0: DRVCTRL
 	0x00000000,  // 1: UNUSED

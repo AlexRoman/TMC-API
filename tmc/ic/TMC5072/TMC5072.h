@@ -62,7 +62,7 @@ static const uint8_t tmc5072_defaultRegisterAccess[TMC5072_REGISTER_COUNT] = {
 	____, ____, ____, ____, ____, ____, ____, ____, ____, ____, 0x01, 0x01, 0x03, 0x02, 0x02, 0x01  // 0x70 - 0x7F
 };
 
-static const int32_t tmc5072_defaultRegisterResetState[TMC5072_REGISTER_COUNT] = {
+static const uint32_t tmc5072_defaultRegisterResetState[TMC5072_REGISTER_COUNT] = {
 //	0    1    2    3    4    5    6    7    8    9    A    B    C    D    E    F
 	0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0, // 0x00 - 0x0F
 	0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0,   0, // 0x10 - 0x1F
